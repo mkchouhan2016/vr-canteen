@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Canteen</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string-array name="text">
+        <item>Its</item>
+        <item>Better</item>
+        <item>Here</item>
+    </string-array>
+
+    <string-array name="text2">
+        <item>WELCOME</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snacks</item>
+        <item>Fast Food</item>
+    </string-array>
+</resources>

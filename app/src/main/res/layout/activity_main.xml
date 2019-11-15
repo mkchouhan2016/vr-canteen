@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<pl.droidsonroids.gif.GifImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/back13"
+    /><TextView
+    android:layout_marginTop="200dp"
+    android:id="@+id/mytext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Canteen"
+    android:textStyle="bold"
+    android:textSize="50dp"
+    android:textAlignment="center"
+    android:textColor="#FFFDFD" />
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:outlineSpotShadowColor="@color/cardview_dark_background"
+        />
+    <com.tomer.fadingtextview.FadingTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:texts="@array/text"
+    app:timeout="300"
+    android:textSize="33dp"
+    android:id="@+id/fadingText"
+        android:textColor="#FFFDFD"
+
+    android:layout_marginTop="610dp"
+    android:layout_marginLeft="150dp"
+    />
+</RelativeLayout>

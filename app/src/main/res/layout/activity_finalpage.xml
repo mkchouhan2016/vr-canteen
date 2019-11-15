@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalpage"
+    android:orientation="vertical"
+    android:background="@drawable/money"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CONFIRM ORDER"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#091A75"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/card11"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+
+                <TableRow android:layout_marginTop="20dp"
+
+                    >
+                    <TextView
+                        android:layout_column="0"
+                        android:text="Product."
+                        android:textSize="33dp"
+                        android:textColor="#091A75"
+
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:text="Qty."
+                        android:gravity="center"
+                        android:padding="3dip"
+
+                        android:textColor="#091A75"
+                        android:textSize="33dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:text="Amount(Rs.)"
+                        android:gravity="right"
+                        android:padding="0dip"
+                        android:textSize="33dp"
+
+                        android:textColor="#091A75"
+                        android:textStyle="bold"
+                        />
+                </TableRow >
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+                <TableRow
+                    android:layout_marginTop="20dp"
+                    >
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="22dp"
+                        android:textColor="#0C558D"
+                        android:id="@+id/ordername"
+                        />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderqty"
+                        />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderamt"
+                        />
+                </TableRow >
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+                <TableRow android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="22dp"
+
+                        android:id="@+id/ordername2"
+                        android:textColor="#0C558D"
+                        />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderqty2"
+                        />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderamt2"
+                        />
+                </TableRow>
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TableRow android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="22dp"
+
+                        android:id="@+id/ordername3"
+                        android:textColor="#0C558D"
+                        />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderqty3"
+                        />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderamt3"
+                        />
+                </TableRow>
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+                <TableRow android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="22dp"
+
+                        android:id="@+id/ordername4"
+                        android:textColor="#0C558D"
+                        />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderqty4"
+                        />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderamt4"
+                        />
+                </TableRow>
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TableRow android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="22dp"
+
+                        android:id="@+id/ordername5"
+                        android:textColor="#0C558D"
+                        />
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+
+                        android:id="@+id/orderqty5"
+                        android:textSize="22dp"
+                        />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:textSize="22dp"
+                        android:id="@+id/orderamt5"
+                        />
+                </TableRow>
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+
+
+            </TableLayout>
+
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="400dp"
+            >
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="Total Amount(Rs.)"
+                android:textSize="33dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textSize="33dp"
+android:textColor="#EE1414"
+                android:id="@+id/finalamt"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+        <Button
+            android:layout_marginTop="500dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textColor="#F7F2F2"
+            android:background="#2F8FDA"
+            android:id="@+id/edit"
+            android:layout_marginLeft="10dp"
+            android:text="EDIT"
+            />
+
+            <Button
+                android:layout_marginTop="500dp"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textColor="#F7F2F2"
+                android:background="#2F8FDA"
+                android:layout_marginLeft="30dp"
+                android:text="Payment"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
